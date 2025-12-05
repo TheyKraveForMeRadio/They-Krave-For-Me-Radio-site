@@ -1,0 +1,1 @@
+export default function Header() { return (<header style={{background:'#050009', padding:24, textAlign:'center'}}><img src="/krave-radio-logo.jpg" alt="TKFM" style={{height:72}} /><h1 style={{color:'#fff', margin:'8px 0'}}>They Krave For Me Radio</h1><p style={{color:'#cceaff'}}>24/7 Hip-Hop • R&B • Culture</p></header>) }

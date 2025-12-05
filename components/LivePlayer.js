@@ -1,0 +1,1 @@
+export default function LivePlayer({ tracks = [] }) { const STREAM_URL = 'https://streaming.live365.com/a71526'; const now = tracks.length ? tracks[0] : 'Live Stream'; return (<section id="player" style={{padding:32, maxWidth:900, margin:'0 auto'}}><h2>Live Player</h2><p>Now Playing: {now}</p><audio controls style={{width:'100%'}} src={STREAM_URL} /></section>) }
